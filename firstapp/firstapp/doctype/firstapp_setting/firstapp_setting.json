@@ -4,7 +4,8 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "enable"
+  "enable",
+  "threshold"
  ],
  "fields": [
   {
@@ -12,11 +13,16 @@
    "fieldname": "enable",
    "fieldtype": "Check",
    "label": "Enable"
+  },
+  {
+   "fieldname": "threshold",
+   "fieldtype": "Data",
+   "label": "Threshold"
   }
  ],
  "issingle": 1,
- "modified": "2021-07-01 22:31:33.071195",
- "modified_by": "Administrator",
+ "modified": "2021-07-06 21:45:42.327349",
+ "modified_by": "raju@tektician.com",
  "module": "Firstapp",
  "name": "Firstapp Setting",
  "owner": "Administrator",

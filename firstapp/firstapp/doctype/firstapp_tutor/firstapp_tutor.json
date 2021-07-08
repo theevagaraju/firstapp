@@ -40,7 +40,7 @@
   {
    "allow_in_quick_entry": 1,
    "fieldname": "course",
-   "fieldtype": "Link",
+   "fieldtype": "Table",
    "label": "Course",
    "options": "Available Course"
   },
@@ -52,8 +52,8 @@
    "options": "Firstapp Student"
   }
  ],
- "modified": "2021-07-05 15:12:46.433968",
- "modified_by": "Administrator",
+ "modified": "2021-07-06 22:10:09.086984",
+ "modified_by": "raju@tektician.com",
  "module": "Firstapp",
  "name": "Firstapp Tutor",
  "owner": "Administrator",

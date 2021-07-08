@@ -11,13 +11,14 @@
    "allow_in_quick_entry": 1,
    "fieldname": "course",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Course",
-   "options": "Firstapp Student"
+   "options": "Firstapp Course"
   }
  ],
  "istable": 1,
- "modified": "2021-07-05 15:12:56.060280",
- "modified_by": "Administrator",
+ "modified": "2021-07-06 22:11:48.282803",
+ "modified_by": "raju@tektician.com",
  "module": "Firstapp",
  "name": "Available Course",
  "owner": "Administrator",

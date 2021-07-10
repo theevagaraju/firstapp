@@ -4,7 +4,10 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "enable"
+  "enable",
+  "total_student",
+  "total_tutor",
+  "total_course"
  ],
  "fields": [
   {
@@ -12,11 +15,26 @@
    "fieldname": "enable",
    "fieldtype": "Check",
    "label": "Enable"
+  },
+  {
+   "fieldname": "total_student",
+   "fieldtype": "Int",
+   "label": "Total Student"
+  },
+  {
+   "fieldname": "total_tutor",
+   "fieldtype": "Int",
+   "label": "Total Tutor"
+  },
+  {
+   "fieldname": "total_course",
+   "fieldtype": "Int",
+   "label": "Total Course"
   }
  ],
  "issingle": 1,
- "modified": "2021-07-01 22:31:33.071195",
- "modified_by": "Administrator",
+ "modified": "2021-07-08 23:12:00.928157",
+ "modified_by": "raju@tektician.com",
  "module": "Firstapp",
  "name": "Firstapp Setting",
  "owner": "Administrator",

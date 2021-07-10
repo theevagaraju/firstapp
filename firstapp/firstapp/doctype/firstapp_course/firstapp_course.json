@@ -22,8 +22,8 @@
    "label": "Id"
   }
  ],
- "modified": "2021-07-05 13:53:16.021844",
- "modified_by": "Administrator",
+ "modified": "2021-07-06 22:02:26.448563",
+ "modified_by": "raju@tektician.com",
  "module": "Firstapp",
  "name": "Firstapp Course",
  "owner": "raju@tektician.com",
@@ -42,6 +42,7 @@
   }
  ],
  "quick_entry": 1,
+ "search_fields": "name1",
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

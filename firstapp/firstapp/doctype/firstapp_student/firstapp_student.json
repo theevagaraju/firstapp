@@ -7,7 +7,8 @@
  "field_order": [
   "name1",
   "origin",
-  "course"
+  "course",
+  "multi_course"
  ],
  "fields": [
   {
@@ -26,13 +27,20 @@
   {
    "allow_in_quick_entry": 1,
    "fieldname": "course",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Course",
-   "options": "Python\nERPNext"
+   "options": "Firstapp Course"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "multi_course",
+   "fieldtype": "Table MultiSelect",
+   "label": "Multi Course",
+   "options": "Available Course"
   }
  ],
- "modified": "2021-07-01 22:41:30.922936",
- "modified_by": "Administrator",
+ "modified": "2021-07-06 22:06:29.461723",
+ "modified_by": "raju@tektician.com",
  "module": "Firstapp",
  "name": "Firstapp Student",
  "owner": "Administrator",
